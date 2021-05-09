@@ -1,0 +1,22 @@
+>>> p = 100
+>>> r = 10
+>>> t = 2
+>>> si = p * r * t
+>>> si
+2000
+>>> si = si /100
+>>> si
+20.0
+>>> _ + p
+120.0
+>>> the_world_is_flat = True
+>>> if the_world_is_flat:
+...     print("Be carefule not to fall")
+...
+Be carefule not to fall
+>>> if the_world_is_flat:
+...     print("Be carefule not to fall")
+... else:
+...     print("sab gol hai")
+...
+Be carefule not to fall
