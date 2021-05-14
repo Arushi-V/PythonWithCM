@@ -8,3 +8,6 @@ import random # it is recommended to put imports on top of file/module
 
 x = random.randrange(1, 7) # first param is included and second is excluded
 print(x)
+
+
+#ok lets close for todays session
