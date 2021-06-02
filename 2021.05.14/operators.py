@@ -33,7 +33,7 @@ print("Assignment Operators")
 
 
 print("-------********--------")
-print("Comparision Operators")
+print("Comparison Operators")
 # Comparision Operators
 
 
@@ -46,7 +46,7 @@ print(not 1>3)
 
 
 print("-------********--------")
-print("Logical Operators")
+print("Indentity Operators")
 #Identity Operators
 a = 6
 b = 5
