@@ -19,7 +19,7 @@
 
 # To create a class, use the keyword class:
 class Animal:
-
+	hobbis = "Ghoomna pasand hai."
 	def __init__(self, noOLegs, speed, sound):
 		self.noOLegs = noOLegs
 		self.speed = speed
@@ -62,3 +62,13 @@ arushi.followers = 100000
 print(arushi.name)
 print(arushi.followers)
 print(arushi.__dict__)
+
+
+print(Animal.hobbis)
+
+fish = Animal("3", "10", "mann ki baate")
+fish.intro()
+print(fish.hobbis)
+fish.hobbis = "Swimming..."
+print(fish.hobbis)
+print(Animal.hobbis)
