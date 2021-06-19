@@ -45,7 +45,7 @@ obj2 = Base()
 # Calling protected member
 # Outside class will  result in
 # AttributeError
- # print(obj2.a)
+print(obj2.a)
 
 
 # Private members
@@ -56,4 +56,6 @@ be accessed except inside a class.
 However, to define a private member prefix the member name with double underscore “__”.
 '''
 
+
+# printing all magic methods of a class
 print(dir(Derived))
