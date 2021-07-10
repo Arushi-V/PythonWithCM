@@ -127,4 +127,5 @@ def oddEvenDiff(*n):
 
 res = oddEvenDiff(8,6,4,3,5,1,18,56,43,23)
 print("even:", res["even"])
+print("odd:", res["odd"])
 
